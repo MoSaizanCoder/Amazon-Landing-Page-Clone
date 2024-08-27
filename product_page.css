@@ -1,0 +1,125 @@
+body{
+    background: #fff;
+}
+.breadcrum{
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #565656;
+}
+.product_display{
+    padding: 10px 20px;
+    min-height: 100%;
+    display: flex;
+}
+.product_d_image{
+    display: flex;
+    gap: 10px;
+}
+.product_icon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product_icon img{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+.product_d_details{
+    margin: 0 30px;
+}
+.product_title{
+    font-size: 25px;
+}
+.brand_store{
+    margin: 5px;
+    color: #007185;
+    font-size: 14px;
+}
+.product_rating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product_rating div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product_rating p{
+    color: #007185;
+}
+.product_rating p span{
+    color: #fff;
+    background: #c73500;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.product_rating h5{
+    font-weight: 400;
+}
+.product_d_price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.product_d_price div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+.product_d_price div p{
+    font-size: 26px;
+    color: #c73500;
+}
+.product_d_price div h1{
+    font-size: 14px;
+    font-weight: 500;
+}
+.product_d_price div h1 span{
+    font-size: 26px;
+    font-weight: 500;}
+.product_d_price div h5{
+    font-weight: 400;
+    color: #565656;
+}
+.product_d_price h5 span{
+    text-decoration: line-through;
+}
+.product_d_price p span{
+    color: #007185;
+}
+.product_color_selection{
+    margin: 15px 0;
+}
+.product_color_options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #cbcbcb;
+    gap: 10px;
+}
+.product_info{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+.product_description h1{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.product_description ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+
+}
